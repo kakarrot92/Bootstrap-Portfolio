@@ -1,0 +1,17 @@
+header {
+  height: 100vh;
+}
+
+.bgrnd {
+  background-image: url('img/desktop-background.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.menu-link-color {
+  color: #344563 !important;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+}
