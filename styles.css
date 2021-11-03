@@ -2,17 +2,12 @@ body {
   font-family: Inter, sans-serif;
 }
 
-header {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
 .bgrnd {
+  width: 100%;
+  height: 90vh;
   background-image: url('img/desktop-background.png');
-  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .menu-link-color {
