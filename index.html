@@ -1,54 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <title>Bootstrap Portfolio</title>
-</head>
-<body>
-    <div class="container-fluid">
-        <header class="container-fluid bgrnd">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container-fluid d-lg-none d-xl-none">
-                    <a href="#" class="navbar-brand">Welcome</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="navmenu">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a href="#portfolio" class="nav-link menu-link-color">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#about" class="nav-link menu-link-color">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contact" class="nav-link menu-link-color">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="headings">
-                <h1>Hi there, I'm Bogdan</h1>
-            <h2>I'm a software developer</h2>
-            <p> I can help you build a product , feature or website Look
-                 through some of my work and experience! If you like what you see and have a project you need coded, 
-                don’t hestiate to contact me.
-            </p>
-            <div class="social-icons">
-                <img src="img/github.svg" alt="">
-                <img src="img/twitter.svg" alt="">
-                <img src="img/Linkedin-icon.svg" alt="">
-            </div>
-            <img src="img/Disabled.png" alt="">
-            </div>
-        </header>
-    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>Bootstrap Portfolio</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <header class="container-fluid bgrnd">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid d-lg-none d-xl-none">
+          <a href="#" class="navbar-brand">Welcome</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="navmenu">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link menu-link-color">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link menu-link-color">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link menu-link-color">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="headings">
+        <h1>Hi there, I'm Bogdan</h1>
+        <h2>I'm a software developer</h2>
+        <p> I can help you build a product , feature or website Look
+          through some of my work and experience! If you like what you see and have a project you need coded,
+          don’t hestiate to contact me.
+        </p>
+        <div class="social-icons">
+          <img src="img/github.svg" alt="">
+          <img src="img/twitter.svg" alt="">
+          <img src="img/Linkedin-icon.svg" alt="">
+        </div>
+        <img src="img/Disabled.png" alt="">
+      </div>
+    </header>
+    <section>
+      <h2>My Recent Works</h2>
+      <div>
+        <div class="row">
+          <div class="card col-lg-3">
+            <div class="card-body">
+              <img src="img/card.svg" alt="Project photo">
+              <h3>Multi-Post Stories<br>Gain+Glory</h3>
+              <div>
+                <ul>
+                  <li>Ruby on rails</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>HTML</li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-info">See project</button>
+            </div>
+          </div>
+          <div class="card col-lg-3">
+            <div class="card-body">
+              <img src="img/card.svg" alt="Project photo">
+              <h3>Multi-Post Stories<br>Gain+Glory</h3>
+              <div>
+                <ul>
+                  <li>Ruby on rails</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>HTML</li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-info">See project</button>
+            </div>
+          </div>
+          <div class="card col-lg-3">
+            <div class="card-body">
+              <img src="img/card.svg" alt="Project photo">
+              <h3>Multi-Post Stories<br>Gain+Glory</h3>
+              <div>
+                <ul>
+                  <li>Ruby on rails</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>HTML</li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-info">See project</button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card col-lg-3">
+            <div class="card-body">
+              <img src="img/card.svg" alt="Project photo">
+              <h3>Multi-Post Stories<br>Gain+Glory</h3>
+              <div>
+                <ul>
+                  <li>Ruby on rails</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>HTML</li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-info">See project</button>
+            </div>
+          </div>
+          <div class="card col-lg-3">
+            <div class="card-body">
+              <img src="img/card.svg" alt="Project photo">
+              <h3>Multi-Post Stories<br>Gain+Glory</h3>
+              <div>
+                <ul>
+                  <li>Ruby on rails</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>HTML</li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-info">See project</button>
+            </div>
+          </div>
+          <div class="card col-lg-3">
+            <div class="card-body">
+              <img src="img/card.svg" alt="Project photo">
+              <h3>Multi-Post Stories<br>Gain+Glory</h3>
+              <div>
+                <ul>
+                  <li>Ruby on rails</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>HTML</li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-info">See project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
